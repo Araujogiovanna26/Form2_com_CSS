@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulário Start</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <form action="\example.html" method="POST">
+        <h2>Cadastro Start Latam</h2>
+        <fieldset>
+          <legend>Nome</legend>
+          <input type="text" placeholder="Nome" name="username" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Sobrenome</legend>
+          <input type="text" placeholder="Sobrenome" name="sobrenome" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Email</legend>
+          <input
+            type="email"
+            placeholder="seu_email@exemplo.com"
+            name="email"
+          />
+        </fieldset>
+
+        <fieldset>
+          <legend>Telefone</legend>
+          <input
+            type="tel"
+            placeholder="nnnnn-nnnn"
+            name="telefone"
+            pattern="^\d{5}-\d{4}$"
+            minlength="10"
+            maxlength="10"
+          />
+        </fieldset>
+
+        <fieldset>
+          <legend>Endereço</legend>
+          <input type="text" placeholder="Logradouro" name="endereço" />
+        </fieldset>
+
+        <fieldset>
+          <legend>CEP</legend>
+          <input
+            type="text"
+            placeholder="nnnnn-nnnn"
+            name="cep"
+            minlength="9"
+            maxlength="9"
+          />
+        </fieldset>
+
+        <fieldset>
+          <legend>Cidade</legend>
+
+          <select name="cidade">
+            <option></option>
+            <option value="recife">Recife</option>
+            <option value="olinda">Olinda</option>
+            <option value="caruaru">Caruaru</option>
+            <option value="abreuelima">Abreu e Lima</option>
+            <option value="jaboataodosguararapes">
+              Jaboatão dos Guararapes</option
+            >
+            <option value="gravata">Gravatá</option>
+            <option value="garanhuns">Garanhuns</option>
+            <option value="paulista">Paulista</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Estado</legend>
+          <select name="estado">
+            <option></option>
+            <option value="Pernambuco"> Pernambuco</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>CPF</legend>
+          <input
+            type="text"
+            placeholder="nnn.nnn.nnn-nn"
+            name="cpf"
+            pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+            title="Digite o CPF no formato nnn.nnn.nnn-nn"
+            maxlength="14"
+          />
+        </fieldset>
+
+        <fieldset>
+          <legend>RG</legend>
+          <input type="text" placeholder="RG" name="rg" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Data de Nascimento</legend>
+          <input type="date" name="datadenascimento" />
+        </fieldset>
+
+        <label>Quais cursos você tem interesse em participar?</label><br />
+
+        <input type="checkbox" name="java" />
+        <label for="java">Java</label><br />
+
+        <input type="checkbox" name="front-end" />
+        <label for="front-end">Front-End</label><br />
+
+        <input type="checkbox" name="back-end" />
+        <label for="back-end">Back-End</label><br />
+
+        <input type="checkbox" name="cloudcomputer" />
+        <label for="cloudcomputer">Cloud Computer</label><br />
+
+        <label>Tem interesse em ser voluntário da Rede Cidadã?</label><br />
+
+        <input type="radio" name="sim" />
+        <label for="sim">Sim</label>
+
+        <input type="radio" name="nao" />
+        <label for="nao">Não</label>
+
+        <fieldset>
+          <legend>Conta pra gente!</legend>
+          <textarea
+            cols="50"
+            rows="10"
+            placeholder="Qual seu objetivo com o curso Start Latam? Fale um pouco mais sobre você."
+          ></textarea>
+        </fieldset>
+
+        <input id="enviar" type="submit" value="Enviar" />
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+input {
+  font-weight: bold;
+  border: none;
+}
+textarea {
+  border: none;
+}
+
+fieldset {
+  border-radius: 8px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 40%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 50px;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#enviar {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 320px;
+  padding: 15px 20px;
+  border-radius: 9px;
+  font-size: 17px;
+}
+input {
+  font-weight: bold;
+  border: none;
+}
+textarea {
+  border: none;
+}
+
+fieldset {
+  border-radius: 8px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 40%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 50px;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#enviar {
+  text-align: center;
+  margin: auto;
+  padding: 15px 20px;
+  border-radius: 9px;
+  font-size: 17px;
+}
